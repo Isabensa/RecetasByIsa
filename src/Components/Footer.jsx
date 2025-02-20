@@ -11,7 +11,7 @@ function Footer() {
         className="text-lg font-semibold"
         initial={{ opacity: 0 }} // Al inicio, el texto está completamente invisible
         animate={{ opacity: 1 }} // Luego, la opacidad aumenta a 1 para hacerlo visible
-        transition={{ duration: 1 }} // La animación dura 1 segundo
+        transition={{ duration: 7 }} // La animación dura 1 segundo
       >
         Recetas Deliciosas - Creado por Isabel 2025.
       </motion.p>

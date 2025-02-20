@@ -49,7 +49,7 @@ function Main() {
           className="w-full md:w-2/3 flex flex-col items-center justify-center text-center"
           initial={{ opacity: 0, x: 50 }} // Comienza desplazado a la derecha
           animate={{ opacity: 1, x: 0 }} // Se anima a su posición original con opacidad 1
-          transition={{ duration: 1 }} // Duración de la animación
+          transition={{ duration: 6 }} // Duración de la animación
         >
           {/* Título principal */}
           <h2 className="text-3xl font-bold text-red-600">
@@ -78,7 +78,7 @@ function Main() {
               className="mt-4 grid grid-cols-2 sm:grid-cols-4 gap-3"
               initial={{ opacity: 0 }} // Inicia con opacidad 0
               animate={{ opacity: 1 }} // Aparece con opacidad 1
-              transition={{ duration: 1 }} // Duración de la animación
+              transition={{ duration: 4 }} // Duración de la animación
             >
               {/* Mapeo dinámico de la lista de recetas */}
               {recipes.map((recipe) => (

@@ -1,4 +1,4 @@
-// Importam los iconos de menú hamburguesa (FiMenu) y cerrar (FiX) desde react-icons/fi
+// Importan los iconos de menú hamburguesa (FiMenu) y cerrar (FiX) desde react-icons/fi
 import { FiMenu, FiX } from "react-icons/fi";
 
 // Componente Header que recibe 'menuAbierto' y 'setMenuAbierto' como props para manejar el estado del menú responsive
